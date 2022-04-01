@@ -1,0 +1,171 @@
+.normback{
+    background-color:  #c0f1d2;
+}
+.norm{
+    width: 1920px;
+    margin: 0 auto;
+}
+.flags{
+    display: flex;
+    justify-content: right;
+}
+.flags img{
+    width: 40px;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 35px;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+}
+
+/*..............................HOTEL...........................*/
+.nameback{
+    background-color: #6a957a;
+    margin-bottom: 0;
+}
+.nameH{
+    width: 1920px;
+    margin: 0 auto;
+}
+#Glav{
+    display: flex;
+    justify-content: left;
+}
+#Glav h2, #Glav a{
+ margin: 20px;
+ color: rgb(253, 253, 253);
+ font-size: 50px;
+}
+#Dio{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #f8ff37;
+}
+/*.....................REGISTRATION.....................*/
+.registraton{
+    width: 1920px;
+    margin: 0 auto;
+}
+.reg img{
+ width: 700px;
+ margin: 20px;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.reg2{
+    margin-right: 20px;
+}
+.regis{
+    display: flex;
+    flex-direction: column;
+    
+}
+.regis h2{
+    text-align: center;
+}
+.regis input{
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 20px;
+}
+#but1{
+    background-color: #1d2420;
+    color: aliceblue;
+}
+/*,,,,,,,,,,,,,,,,,,,,ОТЕЛИ РАЗНЫЕ ,,,,,,,,,,,,,,,,,,,,,*/
+.hotelback{
+    background-color: #6a957a;
+}
+.Hotelinother{
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+}
+.photos1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.photos2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.id1 {
+    margin: 40px;
+    font-size: 30px;
+}
+.id1 h2{
+    font-size: 30px;
+}
+.Hotelinother h1{
+    font-size: 60px;
+    padding: 30px;
+}
+.Hotelinother a{
+    font-size: 60px;
+    padding-bottom: 30px;
+    margin: 20px;
+    color: black;
+}
+.Hotelinother img{
+ width: 500px;
+}
+
+/*..................FOOTER..............*/
+.footback{
+    background-color: #1d2420;
+}
+.footer{
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+.foote a{
+    color: rgb(167, 167, 167);
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+/*=====================ФИШКИ=====================*/
+*, *:before, *:after{
+box-sizing: border-box;
+}
+.num h3:hover{
+    color: #f8ff37;
+}
+#Glav h2:hover{
+    background-color: #6a957a;
+    color: #1d2420;
+    border-bottom: solid #ffffff;
+}
+
+#but1:hover{
+    background-color: rgb(57, 91, 76);
+    
+}
+.id1:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+
+}
+.Hotelinother a:hover{
+    color: aliceblue;
+}
+.foote a:hover{
+    border-bottom:solid rgb(167, 167, 167);
+}

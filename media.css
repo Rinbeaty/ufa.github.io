@@ -1,0 +1,88 @@
+@media (max-width: 979px ){
+    .norm{
+        width: 82%;
+    }
+    .hed{
+        
+        justify-content: space-around;
+        font-size: 25px;
+    }
+    .nameH {
+        width: 82%;  
+    }
+    #Glav a{
+        width: 82%;
+        font-size: 20px;
+    }
+    .registraton{
+        width: 82%;
+        
+    }
+    .reg img{
+        width: 500px;
+        margin-left: 10px;
+    }
+    .reg{
+    display: flex;
+    flex-direction: column;  
+    }
+    .Hotelinother{
+        width: 82%;
+    }
+    .Hotelinother img{
+        width: 250px;
+    }
+    .id1{
+        font-size: 30px;
+    }
+    .footer{
+        width: 82%;
+    }
+}
+@media (max-width: 720px ){
+    .norm{
+        width: 82%;
+    }
+    .hed{
+        
+        justify-content: space-around;
+        font-size: 25px;
+    }
+    .nameH {
+        width: 82%;  
+    }
+    #Glav a{
+        width: 82%;
+        font-size: 20px;
+    }
+    .registraton{
+        width: 82%;
+        
+    }
+    .reg img{
+        width: 400px;
+        margin: 0px;
+    }
+    .reg{
+    display: flex;
+    flex-direction: column;  
+    }
+    .Hotelinother{
+        width: 82%;
+    }
+    .Hotelinother img{
+        width: 250px;
+    }
+    .id1{
+        font-size: 30px;
+    }
+    .photos1{
+        flex-direction: column;
+    }
+    .photos2{
+        flex-direction: column;
+    }
+    .footer{
+        width: 82%;
+    }
+}
